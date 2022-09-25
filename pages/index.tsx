@@ -1,9 +1,12 @@
+import { NextPage } from "next";
 import { NavBar, Footer } from "../components";
 
-export default function Home() {
+const Home: NextPage = () => {
 	return (
 		<div>
 			<h1>Homepage</h1>
 		</div>
-	);
+	)
 }
+
+export default Home;
