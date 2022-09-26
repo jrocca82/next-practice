@@ -1,12 +1,18 @@
 import { NextPage } from "next";
-import { NavBar, Footer } from "../components";
+import Head from "next/head";
 
 const Home: NextPage = () => {
 	return (
-		<div>
-			<h1>Homepage</h1>
-		</div>
-	)
-}
+		<>
+			<Head>
+				<title>Ninja List | Home</title>
+				<meta name="keywords" content="ninja"/>
+			</Head>
+			<div>
+				<h1>Homepage</h1>
+			</div>
+		</>
+	);
+};
 
 export default Home;
